@@ -1,0 +1,63 @@
+
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Курс А",
+      "description": "Базовый курс вождения",
+      "duration": "10 недель",
+      "schedule": [
+        {
+          "date": "2023-09-01T12:00:00Z",
+          "time": "12:00",
+          "location": "Учебный центр №1"
+        },
+        {
+          "date": "2023-09-08T12:00:00Z",
+          "time": "12:00",
+          "location": "Учебный центр №1"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Курс B",
+      "description": "Продвинутый курс вождения",
+      "duration": "8 недель",
+      "schedule": [
+        {
+          "date": "2023-09-05T14:00:00Z",
+          "time": "14:00",
+          "location": "Учебный центр №2"
+        },
+        {
+          "date": "2023-09-12T14:00:00Z",
+          "time": "14:00",
+          "location": "Учебный центр №2"
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "students": [
+    {
+      "id": 101,
+      "firstName": "Иван",
+      "lastName": "Иванов",
+      "email": "ivanov@example.com",
+      "phoneNumber": "+7 999 123-45-67",
+      "courseId": 1
+    },
+    {
+      "id": 102,
+      "firstName": "Анна",
+      "lastName": "Петрова",
+      "email": "petrova@example.com",
+      "phoneNumber": "+7 888 987-65-43",
+      "courseId": 2
+    }
+  ]
+}
